@@ -1,9 +1,92 @@
 {
+  "stickers" : [
+    {
+      "filename" : "2.sticker"
+    },
+    {
+      "filename" : "1.sticker"
+    },
+    {
+      "filename" : "Mlax glove.sticker"
+    },
+    {
+      "filename" : "Mlax glove Black and yellow  .sticker"
+    },
+    {
+      "filename" : "Mlax glove Purple and white .sticker"
+    },
+    {
+      "filename" : "3.sticker"
+    },
+    {
+      "filename" : "Mlax glove Gold and Black  .sticker"
+    },
+    {
+      "filename" : "MLax glove black and white .sticker"
+    },
+    {
+      "filename" : "MLax glove orange .sticker"
+    },
+    {
+      "filename" : "Mlax glove Blue and Black  .sticker"
+    },
+    {
+      "filename" : "Mlax glove Black and yellow 2  .sticker"
+    },
+    {
+      "filename" : "MLax glove green and white .sticker"
+    },
+    {
+      "filename" : "Mlax helmet Black and light blue War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Blue and Red War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet green and maroon War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Purple and white War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Brown and bronze War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Red and White War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Purple and black War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Pink and black.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Black and yellow War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Orange War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet GREEN dark visor.sticker"
+    },
+    {
+      "filename" : "4.sticker"
+    },
+    {
+      "filename" : "Mlax helmet Black and red War.sticker"
+    },
+    {
+      "filename" : "Mlax helmet red black left.sticker"
+    },
+    {
+      "filename" : "Helmet M yellow.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
   },
   "properties" : {
-    "grid-size" : "regular"
+    "grid-size" : "small"
   }
 }
