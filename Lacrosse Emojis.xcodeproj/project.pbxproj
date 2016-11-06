@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CA630F01DCFD23A00B2293D /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7CA630EF1DCFD23A00B2293D /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CA630F41DCFD23A00B2293D /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 7CA630F31DCFD23A00B2293D /* Stickers.xcstickers */; };
+		7CA630F51DCFD23A00B2293D /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 7CA630F31DCFD23A00B2293D /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA630F11DCFD23A00B2293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA630E51DCFD23900B2293D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA630EE1DCFD23A00B2293D;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CA630FB1DCFD23A00B2293D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7CA630F01DCFD23A00B2293D /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7CA630EB1DCFD23A00B2293D /* Lacrosse Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lacrosse Emojis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA630EF1DCFD23A00B2293D /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA630F31DCFD23A00B2293D /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7CA630E41DCFD23900B2293D = {
+			isa = PBXGroup;
+			children = (
+				7CA630F31DCFD23A00B2293D /* Stickers.xcstickers */,
+				7CA630EC1DCFD23A00B2293D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA630EC1DCFD23A00B2293D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA630EB1DCFD23A00B2293D /* Lacrosse Emojis.app */,
+				7CA630EF1DCFD23A00B2293D /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA630EA1DCFD23900B2293D /* Lacrosse Emojis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA630FC1DCFD23A00B2293D /* Build configuration list for PBXNativeTarget "Lacrosse Emojis" */;
+			buildPhases = (
+				7CA630E91DCFD23900B2293D /* Resources */,
+				7CA630FB1DCFD23A00B2293D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA630F21DCFD23A00B2293D /* PBXTargetDependency */,
+			);
+			name = "Lacrosse Emojis";
+			productName = "Lacrosse Emojis";
+			productReference = 7CA630EB1DCFD23A00B2293D /* Lacrosse Emojis.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		7CA630EE1DCFD23A00B2293D /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA630F81DCFD23A00B2293D /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				7CA630ED1DCFD23A00B2293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 7CA630EF1DCFD23A00B2293D /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA630E51DCFD23900B2293D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Lacrosse Emojis";
+				TargetAttributes = {
+					7CA630EA1DCFD23900B2293D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CV4W8SU8FV;
+						ProvisioningStyle = Automatic;
+					};
+					7CA630EE1DCFD23A00B2293D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CV4W8SU8FV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CA630E81DCFD23900B2293D /* Build configuration list for PBXProject "Lacrosse Emojis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CA630E41DCFD23900B2293D;
+			productRefGroup = 7CA630EC1DCFD23A00B2293D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA630EA1DCFD23900B2293D /* Lacrosse Emojis */,
+				7CA630EE1DCFD23A00B2293D /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA630E91DCFD23900B2293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA630F51DCFD23A00B2293D /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA630ED1DCFD23A00B2293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA630F41DCFD23A00B2293D /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA630F21DCFD23A00B2293D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA630EE1DCFD23A00B2293D /* StickerPackExtension */;
+			targetProxy = 7CA630F11DCFD23A00B2293D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CA630F61DCFD23A00B2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CA630F71DCFD23A00B2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA630F91DCFD23A00B2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CV4W8SU8FV;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7CA630FA1DCFD23A00B2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CV4W8SU8FV;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7CA630FD1DCFD23A00B2293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CV4W8SU8FV;
+				INFOPLIST_FILE = "Lacrosse Emojis/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CA630FE1DCFD23A00B2293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CV4W8SU8FV;
+				INFOPLIST_FILE = "Lacrosse Emojis/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA630E81DCFD23900B2293D /* Build configuration list for PBXProject "Lacrosse Emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA630F61DCFD23A00B2293D /* Debug */,
+				7CA630F71DCFD23A00B2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA630F81DCFD23A00B2293D /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA630F91DCFD23A00B2293D /* Debug */,
+				7CA630FA1DCFD23A00B2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA630FC1DCFD23A00B2293D /* Build configuration list for PBXNativeTarget "Lacrosse Emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA630FD1DCFD23A00B2293D /* Debug */,
+				7CA630FE1DCFD23A00B2293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA630E51DCFD23900B2293D /* Project object */;
+}
