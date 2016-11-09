@@ -317,6 +317,7 @@
 				7CA630FA1DCFD23A00B2293D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CA630FC1DCFD23A00B2293D /* Build configuration list for PBXNativeTarget "Lacrosse Emojis" */ = {
 			isa = XCConfigurationList;
@@ -325,6 +326,7 @@
 				7CA630FE1DCFD23A00B2293D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
