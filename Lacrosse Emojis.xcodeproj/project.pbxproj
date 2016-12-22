@@ -258,7 +258,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = CV4W8SU8FV;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.StickerPackExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.CV4W8SU8FV.StickersPack1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -270,7 +270,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = CV4W8SU8FV;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.StickerPackExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.CV4W8SU8FV.StickersPack1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -280,9 +280,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = CV4W8SU8FV;
 				INFOPLIST_FILE = "Lacrosse Emojis/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis";
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.CV4W8SU8FV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -291,9 +292,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = CV4W8SU8FV;
 				INFOPLIST_FILE = "Lacrosse Emojis/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis";
+				PRODUCT_BUNDLE_IDENTIFIER = "StickersPack1.Lacrosse-Emojis.CV4W8SU8FV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

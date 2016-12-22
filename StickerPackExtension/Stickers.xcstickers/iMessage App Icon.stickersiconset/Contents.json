@@ -76,22 +76,6 @@
       "filename" : "marketing-1024x768.png",
       "scale" : "1x",
       "platform" : "ios"
-    },
-    {
-      "filename" : "icon-27x20.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "icon-29x29~ipad.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "icon-32x24.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "icon-67x50~ipad.png",
-      "unassigned" : true
     }
   ],
   "info" : {
